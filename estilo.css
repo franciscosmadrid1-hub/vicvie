@@ -51,6 +51,17 @@ a:hover, a:focus-visible { color: var(--coral); }
 }
 .boton:hover, .boton:focus-visible { background: var(--crema); color: var(--tinta); }
 .fecha { color: var(--gris); font-size: .95rem; }
+.tiendas { list-style: none; padding: 0; margin: 2rem 0; display: grid; gap: .75rem; max-width: 34rem; }
+.tienda {
+  display: flex; flex-direction: column; gap: .15rem;
+  padding: 1rem 1.2rem;
+  border: 1px solid #3A3138;
+  border-left: 4px solid var(--coral);
+  text-decoration: none;
+}
+.tienda strong { font: 700 1.35rem/1.1 "Barlow Condensed", sans-serif; text-transform: uppercase; letter-spacing: .03em; }
+.tienda span { color: var(--gris); font-size: .95rem; }
+.tienda:hover, .tienda:focus-visible { border-left-color: var(--agua); background: #1D171C; color: var(--crema); }
 footer {
   padding-top: 1.5rem;
   padding-bottom: 2rem;
